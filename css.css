@@ -1,0 +1,50 @@
+/*header(메뉴)*/
+
+body{
+    margin: 0;
+}
+
+.hd_nav{
+    padding: 8px 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(1, 5, 48);
+    opacity: 80%;
+    color: white;
+}
+
+.hd_name{
+    padding-left: 30px;
+}
+
+.hd_ul{
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+    text-align: right;
+}
+
+.hd_ul li{
+    padding: 20px;
+    margin-left: 20px;
+}
+.hd_ul li:hover{
+    background-color: rgb(52, 97, 160);
+}
+
+li a{
+    color: white;
+    text-decoration: none;
+}
+
+/*footer (저작권 및 연락처)*/
+
+nav span{
+    text-decoration: none;
+}
+
+#copyrignt{
+    size: 10px;
+    text-align: center;
+}
