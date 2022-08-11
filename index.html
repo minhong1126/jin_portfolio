@@ -13,6 +13,7 @@
 
     <link rel="stylesheet" type="text/css" href="css.css">
     <link rel="stylesheet" type="text/css" href="ind_css.css">
+    <script src="ind_js.js"></script>
     
     <title>Jin's Portfolio</title>
 </head>
@@ -36,28 +37,32 @@
     </header>
 
     <!--표지 슬라이드(사진)-->
-    <div id="slide">
-        <ul class="photo">
-            <li><img src="slide_com.jpg" id="s_com"></li>
-            <li><img src="slide_eng.jpg" id="s_eng"></li>
-            <li><img src="slide_enth.jpg" id="s_enth"></li>
-        </ul>
+    <div class="slide">
+        <div class="sld_photo">
+            <img src="slide_com.jpg" class="sld_img">
+            <img src="slide_eng.jpg" class="sld_img">
+            <img src="slide_enth.jpg" class="sld_img">
+        </div>
 
-        <p class = "slide_control">
-            
-        </p>
+        <div id="sld_arrow">
+            <button class="sld_prv"></button>
+            <button class="sld_nxt"></button>
+        </div>
     </div>
 
     <!--저작권 및 연락처(간단하게)-->
     <footer>
-        <nav>
-            <span><a href = "https://www.instagram.com/myungmmyung/">Instagram</a></span>
-            <span><a href="https://github.com/minhong1126">Github</a></span>
-            <span><a hrdf="https://www.acmicpc.net/user/mingh159357">BackJoon</a></span>
+        <nav class="nav_span">
+            <a href = "https://www.instagram.com/myungmmyung/">Instagram</a> |
+            <a href="https://github.com/minhong1126">Github</a> |
+            <a href="https://www.acmicpc.net/user/mingh159357">BackJoon</a>
         </nav>
-        <nav>
-            <span id="copyright">Copyright 2021. Jin. All Rights Reserved</span>
-        </nav>
+
+        <hr>
+
+        <div class="copy">
+            <span>Copyright 2021. Jin. All Rights Reserved</span>
+        </div>
     </footer>
 </body>
 </html>

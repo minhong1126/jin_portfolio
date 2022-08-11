@@ -1,0 +1,15 @@
+.sld_photo{
+    display: flex;
+    align-items: center;
+}
+
+.sld_img{
+    width: 80%;
+    height: 15%;
+    margin: 10%;
+}
+
+.sld_arrow button{
+    background-color: transparent;
+    color: white;
+}
