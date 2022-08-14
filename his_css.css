@@ -1,0 +1,25 @@
+/*경력*/
+.rsm li{
+    text-decoration: none;
+    color: black;
+    list-style: none;
+}
+
+/*할 수 있는 일*/
+
+/*이력서 다운로드*/
+.rsm_btn{
+    text-align: center;
+}
+
+.down_btn{
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 20%;
+    border-radius: 15px;
+    border-color:rgb(219, 238, 255);
+    margin-bottom: 30px;
+}
+
+.down_btn:hover{
+    background-color: rgb(219, 238, 255);
+}

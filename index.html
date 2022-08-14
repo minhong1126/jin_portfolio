@@ -28,7 +28,7 @@
             <div>
                 <ul class="hd_ul">
                     <li><a href="index.html">Home</li>
-                    <li><a href="history.html">History</li>
+                    <li><a href="his.html">History</li>
                     <li><a href="work.html">Work</li>
                     <li><a href="contact.html">Contact</li>
                 </ul>
@@ -38,30 +38,43 @@
 
     <!--표지 슬라이드(사진)-->
     <div class="slide">
+        <button class="sld_btn" id="sld_prev">«</button>
+
         <div class="sld_photo">
             <img src="slide_com.jpg" class="sld_img">
-            <img src="slide_eng.jpg" class="sld_img">
-            <img src="slide_enth.jpg" class="sld_img">
+            <img src="slide_eng.jpg" class="sld_img" style="visibility: hidden; display: none">
+            <img src="slide_enth.jpg" class="sld_img" style="visibility: hidden; display: none;"> 
+            
+            <button class="sld_btn" id="sld_next">»</button>    
         </div>
+    </div>
 
-        <div id="sld_arrow">
-            <button class="sld_prv"></button>
-            <button class="sld_nxt"></button>
+    <div>
+        <div>
+            <p>성실 설명</p>
+        </div>
+        <div>
+            <p>
+                융합 설명
+            </p>
+        </div>
+        <div>
+            <p>
+                열정 설명
+            </p>
         </div>
     </div>
 
     <!--저작권 및 연락처(간단하게)-->
     <footer>
         <nav class="nav_span">
-            <a href = "https://www.instagram.com/myungmmyung/">Instagram</a> |
-            <a href="https://github.com/minhong1126">Github</a> |
-            <a href="https://www.acmicpc.net/user/mingh159357">BackJoon</a>
+            <a href ="https://www.instagram.com/myungmmyung/">Instagram</a> |
+            <a href="mailto:"mjhong159357@gmail.com>Gmail</a>
         </nav>
 
         <hr>
-
-        <div class="copy">
-            <span>Copyright 2021. Jin. All Rights Reserved</span>
+        <div class="div_copy">
+            <span class="copy">Copyright 2021. Jin. All Rights Reserved</span>
         </div>
     </footer>
 </body>

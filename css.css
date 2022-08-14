@@ -1,8 +1,12 @@
-/*header(메뉴)*/
+/*전체적*/
 
 body{
     margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
 }
+
+/*header(메뉴)*/
 
 .hd_nav{
     padding: 8px 12px;
@@ -39,12 +43,6 @@ li a{
     text-decoration: none;
 }
 
-/*body (전체적)*/
-
-body{
-    background-color: aliceblue;
-}
-
 /*footer (저작권 및 연락처)*/
 
 footer{
@@ -57,9 +55,13 @@ footer{
     size: 10px;
     color: black;
     margin: 5px;
+    font-size: 13px;
 }
 
-.copy span{
-    size: 5px;
+.div_copy{
     text-align: center;
+}
+
+.copy{
+    font-size: 3px;
 }
