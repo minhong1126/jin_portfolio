@@ -1,3 +1,5 @@
+/*슬라이드*/
+
 .sld_photo{
     text-align: center;
     display: flex;
@@ -21,8 +23,9 @@
     top: 250px;
 }
 
-#sld_next{
-    float: right;
-    position: relative;
-    bottom: 20px;
+/*설명란*/
+
+.ex_div{
+    margin: 5%;
+    margin-top: 10%;
 }

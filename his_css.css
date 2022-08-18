@@ -1,8 +1,15 @@
 /*경력*/
+
+.his_rsm{
+    padding: 0 5%;
+    margin-top: 3%;
+}
+
 .rsm li{
     text-decoration: none;
     color: black;
     list-style: none;
+    padding-top: 20px;
 }
 
 /*할 수 있는 일*/
